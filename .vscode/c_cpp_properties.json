@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "linux",
+            "includePath": [
+                "${workspaceFolder}/GPQ/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "compilerArgs": [],
+            "intelliSenseMode": "linux-gcc-x86",
+            "mergeConfigurations": true,
+            "compilerPath": "E:/ProgramFilesx86/MinGW/mingw64/bin/g++.exe"
+            // "browse": {
+            //     "path": [
+            //         "${workspaceFolder}/**"
+            //     ],
+            //     "limitSymbolsToIncludedHeaders": true
+            // }
+        }
+    ],
+    "version": 4
+}

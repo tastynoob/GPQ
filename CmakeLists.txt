@@ -1,0 +1,10 @@
+cmake_minimum_required (VERSION 2.8)
+
+project(GPQ)
+
+include_directories(GPQ/inc)
+
+aux_source_directory(GPQ/src src_list)
+
+
+add_executable(GPQ GPQ/start.cpp ${src_list})
